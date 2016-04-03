@@ -1,0 +1,271 @@
+@CHARSET "ISO-8859-1";
+body 
+	{    
+    	margin: 0 !important;
+    	padding: 0 !important;
+    	font-family:Arial;    	
+	}
+#header 
+	{
+	    background-color:#484547;
+	    color:white;
+	    text-align:center;
+	    align:center;
+	    padding-top:6px;
+	    padding-right:6px;
+	    padding-left:6px;
+	    margin: 0px;
+	    border:0px;
+	    height: 35px;
+	    font-size:10px;
+	}
+/*-----------------------------------WRAPPER-------------------------------------*/	
+#wrapper
+	{
+		float:left;
+		padding-left:150px;
+		padding-right:150px;
+		overflow:hidden;
+	}	
+/*-----------------------------------SIDE NAV-------------------------------------*/	
+#sideNav 
+	{
+	    line-height:30px;
+	    background-color:#484547;
+	    color:white;
+	    height:760px;
+	    width:65px;
+	    float:left;
+	    font-size:10px; 
+	    align:center;
+	    
+	}
+#sideNav ul 
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+    }
+#sideNav li 
+	{
+		border-bottom-width: 0;
+		margin: 0;
+    }
+#sideNav a {
+	text-decoration: none;
+	display: block;
+	background: #484547;
+	padding:0;
+	color: white;
+	width: auto;
+	text-align: center;
+	font-weight: bold;
+	line-height:15px;
+   }
+
+#sideNav a:hover {
+	background: #999999;
+}
+
+#sideNav a.selected {
+	position: relative;
+	background: #999999;
+	color: white;
+	font-weight: bold;
+}
+	
+/*-----------------------------------NAV1-------------------------------------*/	
+#nav1 ul 
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+    }
+#nav1 li 
+	{
+		float: left;
+		border: 1px solid #484547;
+		border-bottom-width: 0;
+		margin: 0;
+    }
+#nav1 a {
+	text-decoration: none;
+	display: block;
+	background: #64bbc5;
+	padding: 0.24em 1em;
+	color: white;
+	width: auto;
+	text-align: center;
+	font-weight: bold;
+   }
+
+#nav1 a:hover {
+	background: red;
+}
+
+#nav1 a.selected {
+	position: relative;
+	background: red;
+	color: white;
+	font-weight: bold;
+}
+
+/*-----------------------------------NAV2-------------------------------------*/
+#nav2 ul 
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+    }
+#nav2 li 
+	{
+		float: left;
+		border: 1px solid #484547;
+		border-bottom-width: 0;
+		margin: 0;
+    }   
+#nav2 a 
+	{
+		text-decoration: none;
+		display: block;
+		background: #999999;
+		padding: 0.24em 1em;
+		color: white;
+		width: auto;
+		text-align: center;
+		font-weight: bold;
+    	/* Border radius for Chrome, Webkit and other good browsers */
+	    -webkit-border-radius: 10px;
+	    -moz-border-radius: 10px;
+	    -border-radius: 10px;
+	    border-radius: 10px;		
+	}
+
+#nav2 a:hover {
+	background: red;
+}
+
+#nav2 a.selected {
+	position: relative;
+	top: 1px;
+	background: red;
+	color: white;
+	font-weight: bold;
+}
+
+/*-----------------------------------MAIN SECTION-------------------------------------*/
+#section 
+	{
+	    width:90%;
+	    float:left;
+	    padding-left:10px; 
+	    font-size:11px;
+	}
+.Table
+	{
+	    display: table;
+	    width: 100%;
+	}
+.Title
+	{
+	    display: table-caption;
+	    text-align: center;
+	    border: solid;
+	    border-color:#999999;
+	    background-color:#999999;
+	    border-width: thin;
+	    margin-bottom: 10px;
+	    margin-top: 5px;
+	}
+.Heading
+	{
+	    display: table-row;
+	    text-align: left;
+	}
+.Row
+	{
+	    display: table-row;
+	}
+.Cell
+	{
+	    display: table-cell;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    width:18%;         
+	}
+.Cell1
+	{
+	    display: table-cell;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    width:18%; 
+	    text-align: center;        
+	}
+.Target
+	{
+	    text-align: right;        
+	}
+	
+.Level1Sub, .Level1App, .EPSub, .EPApp
+	{
+	    text-align: center;        
+	}
+	
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 100%;
+  height: 15px;
+}
+
+/*-----------------------------------MAIN SECTION-SUB Tables------------------------------------*/
+.STEMTable
+	{
+	    display: table;
+	    width: 100%;
+	}
+.STEMTableTitle
+	{
+	    display: table-caption;
+	    text-align: center;
+	    background-color:#999999;
+	    border: solid;
+	    border-color:#999999;
+	    border-width: thin;
+	    margin-bottom: 10px;
+	    margin-top: 5px;
+	}
+.STEMTableHeading
+	{
+	    display: table-row;
+	    text-align: center;
+	}
+.STEMTableRow
+	{
+	    display: table-row;
+	}
+.STEMTableCell
+	{
+	    display: table-cell;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    width:18%;    
+	    color: #00ccff;     
+	}
+.STEMTableCell_2
+	{
+	    display: table-cell;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    width:18%;    
+	    color: #736f6e;  
+	    text-align:right; 
+	    border-right: solid;
+	    border-color:#999999;
+	    border-width: thin;	    
+	}
+
+
+		
